@@ -6,7 +6,7 @@
 #include "string.h" 
 #include "../../include/FONT.H"
 #include "GUI.h"
-#include "tft.h"
+#include "TFT.h"
 
 /*******************************************************************
  * @name       :uint8_t get_ascii(uint8_t data_ascii)

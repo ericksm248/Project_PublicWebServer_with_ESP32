@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <tft.h>
+#include <TFT.h>
 #include <GUI.h>
 #include "string.h"
 #include <SPI.h>

@@ -3,7 +3,7 @@
 //Some functions are modified from the original LCDWiki implementation.
 //http://www.lcdwiki.com/
 /****************************************************************************************************/
-#include "tft.h"
+#include "TFT.h"
 #include "stdlib.h" 	   
 
 _lcd_dev lcddev;
