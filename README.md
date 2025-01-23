@@ -1,7 +1,7 @@
 <h1 align="center">Public Web Server with ESP32</h1>
 <br>
 
-This project uses Ngrok to make a local web server accessible on the internet. It involves creating a web interface with HTML, CSS, and JavaScript for the ESP32. The web server uses HTTP GET and POST methods to interact with it.
+This project uses Ngrok to make a local web server accessible on the internet. The web interface was created with HTML, CSS, and JavaScript, which is programmed on the ESP32. The web server uses HTTP GET and POST methods to interact with it.
 
 ## How does it work?
 
@@ -20,3 +20,5 @@ This TFT requires commands and parameters for initial configuration, after which
 [![Texto alternativo](https://img.youtube.com/vi/xf6562S__Sg/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
 
 Watch the explanation and demonstration video on YouTube by clicking the image!
+
+If any fragment of code in this project infringes upon copyright, please notify me so that I can take corrective action.
