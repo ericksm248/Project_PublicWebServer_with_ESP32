@@ -1,19 +1,13 @@
-#include <Arduino.h>
-#include <TFT.h>
-#include <GUI.h>
-#include "string.h"
-#include <SPI.h>
-#include <WiFi.h>
-#include "AsyncTCP.h"
-#include "ESPAsyncWebServer.h"
-
 /*
-04/07/2023
-erick , 
+Date: 04/07/2023
+Documentation: 23/01/2025
+Author of the project: Ericsón Vilcahuamán, 
+-Contact: ericksm.electronica@gmail.com
+
 TFT driver ST7796 4.0inch  480x320 pixeles
-pinout TFT:
- PIN TFT  | DESCRIPCION  |  OTRO NOMBRE   |  PIN ESP32
- 1. VCC   |     5V       |                |   Fuente
+pinout and connections mapping:
+ PIN TFT  | DESCRIPTION  |  OTHER NAME    |  PIN ESP32
+ 1. VCC   |     5V       |  Power supply  |   
  2. GND   |    tierra    |                |   GND
  3. CS    | chip select  |       SS       |   GPIO5
  4. RESET |    reset     |                |   GPIO21
@@ -24,18 +18,15 @@ pinout TFT:
  9. SDO   |   spi out    |    MISO,SDI    |   GPIO19
 */
 
-/*
-SPI mode, representing a pair of (CPOL, CPHA) configuration:
+#include <Arduino.h>
+#include <TFT.h>
+#include <GUI.h>
+#include "string.h"
+#include <SPI.h>
+#include <WiFi.h>
+#include "AsyncTCP.h"
+#include "ESPAsyncWebServer.h"
 
-MODE0: (0, 0)
-
-MODE1: (0, 1)
-
-MODE2: (1, 0)
-
-MODE3: (1, 1)
-
-*/
 
 #define DEBOUNCE_TIME 130
 

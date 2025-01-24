@@ -20,5 +20,3 @@ This TFT requires commands and parameters for initial configuration, after which
 [![Texto alternativo](https://img.youtube.com/vi/xf6562S__Sg/maxresdefault.jpg)](https://www.youtube.com/watch?v=xf6562S__Sg)
 
 Watch the explanation and demonstration video on YouTube by clicking the image!
-
-If any fragment of code in this project infringes upon copyright, please notify me so that I can take corrective action.
