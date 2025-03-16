@@ -8,7 +8,7 @@ This project uses Ngrok to make a local web server accessible on the internet. T
 Anyone in the world can send a message using the web server on the ESP32, and the circuit displays this message on the TFT screen connected to the ESP32. For security reasons, Ngrok is used. You can also open ports on your router to make your app public, but this method is less secure.
 
 The code on the ESP32 allows multiple connections and transfers data emulating **concurrency** thanks to the AsyncTCP library.
-We have 3 pages, each containing 10 messages. New messages replace the old ones. You can switch between pages by pressing a button. The new messages always appear at the top of page 1, with older messages arranged consecutively below.
+We have 3 pages to display in the TFT screen, each containing 10 messages at most. New messages replace the old ones. You can switch between pages by pressing a button. The new messages always appear at the top of page 1, with older messages arranged consecutively below.
 
 ### Platformio Project
 This project can be opened with PlatformIO and works very well. The project uses the libraries: ESPAsyncWebServer, AsyncTCP, and WiFi. For the TFT, I use the library from LCDWiki but have applied some custom modifications to it, adding new functions developed by me.
